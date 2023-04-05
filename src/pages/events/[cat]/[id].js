@@ -5,3 +5,5 @@ const Page = () => {
 }
 
 export default Page;
+
+// This makes it dynamic with /events/1234
