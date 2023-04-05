@@ -33,7 +33,7 @@ export default function Home() {
       </main>
 
       <footer>
-      <p>&copy; 2023 ammocodes</p>
+      <p>&copy; 2023 ammocodes development</p>
 
       </footer>
       
