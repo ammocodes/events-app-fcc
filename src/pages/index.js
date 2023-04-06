@@ -79,7 +79,10 @@ export default function Home({ title }) {
   );
 }
 
-export function getServerSideProps() {
+export async function getServerSideProps() {
+  const data = await import('/data/data.json');
+  console.log(data);
+
   return {
     props: {
       title: "Hello everyone, I'm a prop",
