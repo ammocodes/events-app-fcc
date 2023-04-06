@@ -1,4 +1,4 @@
-const Page = () => {
+const EventsCatPage = () => {
     return <div>
         <h1>Events in London</h1>
         <a href="/event/event1">Event 1</a>
@@ -10,6 +10,6 @@ const Page = () => {
         </div>
 }
 
-export default Page;
+export default EventsCatPage;
 
 // This makes it dynamic with /events/1234

@@ -5,7 +5,7 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Home({title}) {
   return (
     <>
       <Head>
@@ -29,6 +29,7 @@ export default function Home() {
       </header>
 
       <main>
+        <div>
 
         <a href="">
           <img />
@@ -53,13 +54,15 @@ export default function Home() {
           <h2> Events in Vilnius</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
         </a>
-
+        </div>
       </main>
 
       <footer>
       <p>&copy; 2023 ammocodes development</p>
 
       </footer>
+
+      
       
     </>
   )

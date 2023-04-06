@@ -1,6 +1,6 @@
 const Page = () => {
     return <div>
-    <h1>Events Page index.js</h1>
+    <h1>Events index.js page</h1>
             <div>
 
         <a href="">
